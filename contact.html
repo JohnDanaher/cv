@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Contact Info</title>
+  </head>
+  <body>
+    <h3>Contact Me</h3>
+  <ul>
+    <li><a href="mailto:jayblez@gmail.com?subject=Sup, bae">Email</a></li>
+    <li><a href="https://www.facebook.com/JohnDanaher" target="_blank">Facebook</a></li>
+  </ul>
+  <!--forms by themselves don't actually do anything, so you need the label and
+    input html elements.-->
+  <form action="mailto:jayblez@gmail.com?subject=Feedback" method="post" enctype="text/plain"><!--the action part is what the form does-->
+    <label>Your Name</label>
+    <input type="text" name="name" value=""><br>
+    <label>Your email</label>
+    <input type="email" name="email" value=""><br>
+    <label>Do you want to receive a reckless amount of annoying emails?</label>
+    <input type="checkbox" name="" value=""><br>
+    <label>Message</label><br>
+    <textarea name="message" rows="10" cols="30"></textarea>
+    <input type="submit" name="">
+  </form>
+  </body>
+</html>
